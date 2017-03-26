@@ -33,7 +33,7 @@ const OS: &'static str = "darwin";
 const OS: &'static str = "linux";
 #[cfg(target_os = "windows")]
 const OS: &'static str = "windows";
-#[cfg(target_os = "freebsd)]
+#[cfg(target_os = "freebsd")]
 const OS: &'static str = "freebsd";
 
 const ANDROID_INCLUDE: &'static str = "platforms/android-21/arch-arm64/usr/include";
